@@ -6,6 +6,8 @@ github.com/0xBridge/hash2curve v0.0.0-20250115114420-de0052b4a356 h1:8QfyAtXLFcM
 github.com/0xBridge/hash2curve v0.0.0-20250115114420-de0052b4a356/go.mod h1:vwLTftU+aW18xYcykn1LUfGhwBIFqWNa93zL7C2ES44=
 github.com/0xBridge/hash2curve v0.0.0-20250115115850-b0e5fe71c3c2 h1:6HZ7gbFas7p343OIoKIkHn9+S/PyiZWeMMTjIll2Vf8=
 github.com/0xBridge/hash2curve v0.0.0-20250115115850-b0e5fe71c3c2/go.mod h1:vwLTftU+aW18xYcykn1LUfGhwBIFqWNa93zL7C2ES44=
+github.com/0xBridge/hash2curve v0.0.0-20250115122726-bb6e1c72e812 h1:bsftPNN2M22BOfN4uJFeXDfZyfEKBgFkbKB6ibrj3Vk=
+github.com/0xBridge/hash2curve v0.0.0-20250115122726-bb6e1c72e812/go.mod h1:vwLTftU+aW18xYcykn1LUfGhwBIFqWNa93zL7C2ES44=
 github.com/0xBridge/hash2curve v0.3.0 h1:41Npcbc+u/E252A5aCMtxDcz7JPkkX1QzShneTFm4eg=
 github.com/0xBridge/hash2curve v0.3.0/go.mod h1:itj45U8uqvCtWC0eCswIHVHswXcEHkpFui7gfJdPSfQ=
 github.com/0xBridge/hash2curve v0.3.1-0.20241029002722-6917d1f78dda h1:kMhrVX5K6usVsOPkbKNo/9D7DOYltOmhlEgdYFzG1Ug=
