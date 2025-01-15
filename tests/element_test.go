@@ -15,7 +15,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/bytemare/secp256k1"
+	"github.com/0xBridge/secp256k1"
 )
 
 const (

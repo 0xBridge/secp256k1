@@ -1,22 +1,22 @@
 # Secp256k1
-[![secp256k1](https://github.com/bytemare/secp256k1/actions/workflows/ci.yml/badge.svg)](https://github.com/bytemare/secp256k1/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/secp256k1.svg)](https://pkg.go.dev/github.com/bytemare/secp256k1)
+[![secp256k1](https://github.com/0xBridge/secp256k1/actions/workflows/ci.yml/badge.svg)](https://github.com/0xBridge/secp256k1/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/secp256k1.svg)](https://pkg.go.dev/github.com/0xBridge/secp256k1)
 [![codecov](https://codecov.io/gh/bytemare/secp256k1/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/secp256k1)
 
 ```
-  import "github.com/bytemare/secp256k1"
+  import "github.com/0xBridge/secp256k1"
 ```
 
 This package implements the Secp256k1 prime-order elliptic curve group with hash-to-curve capabilities and [complete addition formulas](https://eprint.iacr.org/2015/1060.pdf).
 
 
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/secp256k1.svg)](https://pkg.go.dev/github.com/bytemare/secp256k1)
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/secp256k1.svg)](https://pkg.go.dev/github.com/0xBridge/secp256k1)
 
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/secp256k1).
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/0xBridge/secp256k1).
 
 ## Versioning
 
-[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/secp256k1/tags).
+[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/0xBridge/secp256k1/tags).
 
 ## Contributing
 

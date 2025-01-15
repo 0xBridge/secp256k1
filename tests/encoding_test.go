@@ -14,7 +14,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/bytemare/secp256k1"
+	"github.com/0xBridge/secp256k1"
 )
 
 type serde interface {

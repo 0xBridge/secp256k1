@@ -12,9 +12,9 @@ import (
 	"crypto"
 	"math/big"
 
-	"github.com/bytemare/hash2curve"
-
-	"github.com/bytemare/secp256k1/internal/field"
+	"github.com/0xBridge/hash2curve"
+	hash2CurveSecp "github.com/0xBridge/hash2curve/secp256k1"
+	"github.com/0xBridge/secp256k1/internal/field"
 )
 
 const (
@@ -99,12 +99,12 @@ func hashToScalar(input, dst []byte) *Scalar {
 }
 
 func map2IsoCurve(fe *big.Int) *Element {
-	x, y := hash2curve.MapToCurveSSWU(secp256k13ISOA, secp256k13ISOB, mapZ, fe, fp.Order())
-	return newElementWithAffine(x, y)
+	point := hash2CurveSecp.Map2IsoCurve(fe)
+	return newElementWithAffine(&point.X, &point.Y)
 }
 
 func isogeny3iso(e *Element) *Element {
-	x, y, isIdentity := hash2curve.IsogenySecp256k13iso(&e.x, &e.y)
+	x, y, isIdentity := hash2CurveSecp.IsogenySecp256k13iso(&e.x, &e.y)
 
 	if isIdentity {
 		return newElement()
